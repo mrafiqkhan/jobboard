@@ -1,79 +1,20 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+#JOBBoard
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+JobPortal project abstract
++----------------------+---------------------+
+| Project Name         | JobBoard            |
++----------------------+---------------------+
+| Upload Date          | 2020-05-13          |
++----------------------+---------------------+
+| Platform             | Laravel PHP         |
++----------------------+---------------------+
+| Programming Language | html,css,javascript |
++----------------------+---------------------+
+| Database             | mysql               |
++----------------------+---------------------+
+| Project Type         | web Application     |
++----------------------+---------------------+
 
-## About Laravel
+##JobPortal project description
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
-- [云软科技](http://www.yunruan.ltd/)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Institute has decided to make job portal for its students. The portal must have following modules: 1. Student 2. Company 3. Admin Your application must have complete authentication functionalities: 1. Register user (student & company only. Admin account will be seeded with application) 2. Login 3. Forget password and reset password 4. Update password 5. Update profile (picture, contact, etc.) All lists must be paginated. The application must have proper authentication. No user should be able to access unauthorized information of other users. Functionalities for each module is mentioned below: 1. Student module a. Student must be able to login to the application with his credentials and he will only have access to his own data b. Student must be able to maintain multiple resumes • One resume shall be marked as default c. Student must be able to maintain his cover letter d. Student must be able to watch list of active jobs • Your application must have following filters for job 1. Title 2. Skills 3. Location e. On every page there must be a list of recommended jobs • Recommended jobs must be jobs matching with the resume of the user f. Student must be able to apply to a job • On click of apply button; a popup should confirm if the user wants to upload new resume or use existing resumes. • After confirmation the resume must be sent to the company that posted the job g. Student be able to track his job application (Company will update the status; that will be show to the student) h. Students must receive a notification whenever status of any of their job applications update 2. Company module a. Company manager must be able to login to the application with his credentials and he will only have access to his own data b. They must be able manage jobs c. They must be able to watch applications/submissions against a job and change their statuses 3. Admin a. Administrator must be able to approve their students. A badge should be assigned to their students indicating a verified student of their institute. b. Administrator must be able to remove/block any user, job or application c. Administrator must be able to reset password of any of the users d. Admin must be able to watch the list of all registered and unemployed students(specifically of their institute). • On top of this list, following stats must be shown: 1. Total number of institute graduates 2. Number of registered graduates 3. Number of graduates with job 4. Number of unemployed graduates Maintain in this document means Create, Read, Update and Delete (CRUD)
